@@ -42,14 +42,15 @@ public static void main(String[] args) throws Exception {
     //Approch 2
     int[] ans=new int[arr.length];
     LinkedList<Integer> st=new LinkedList<>();
-    st.add(arr[arr.length-1]);
+    
     for(int i=0;i<arr.length;i++){
-        while(st.size()>0&&arr[i]>arr[st.getLast()])ans[st.removeLast()]=arr[i];
-        
+        while(st.size()>0&&arr[i]<arr[st.getLast()])ans[st.removeLast()]=arr[i];
+        if(st.size()==0)ans[i]=-1;
+        else ans[i]=st.getLast();
         st.add(i);
-    }  
+    }
     while(st.size()>0)ans[st.removeLast()]=-1;
-   return ans;
+    return ans;
  }
 
 }
