@@ -41,18 +41,14 @@ public static void main(String[] args) throws Exception {
     // solve 
     //Approch 2
     int[] ans=new int[arr.length];
-    ans[arr.length-1]=-1;
     LinkedList<Integer> st=new LinkedList<>();
     st.add(arr[arr.length-1]);
-    for(int i=arr.length-2;i>=0;i--){
-        while(st.size()>0&&arr[i]>st.getLast())st.removeLast();
-        if(st.size()>0)ans[i]=st.getLast();
-        else ans[i]=-1;
-        st.add(arr[i]);
-    }
-   
-   
-   
+    for(int i=0;i<arr.length;i++){
+        while(st.size()>0&&arr[i]>arr[st.getLast()])ans[st.removeLast()]=arr[i];
+        
+        st.add(i);
+    }  
+    while(st.size()>0)ans[st.removeLast()]=-1;
    return ans;
  }
 
