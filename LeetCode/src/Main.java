@@ -1,6 +1,7 @@
 import Problems.LeetCode1636;
 import Problems.LeetCode2191;
 import Problems.LeetCode2418;
+import Problems.LeetCode912;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,5 +9,6 @@ public class Main {
         LeetCode2418.run();
         LeetCode1636.run();
         LeetCode2191.run();
+        LeetCode912.run();
     }
 }
