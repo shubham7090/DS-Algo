@@ -3,6 +3,8 @@ import Problems.LeetCode1636;
 import Problems.LeetCode2191;
 import Problems.LeetCode2418;
 import Problems.LeetCode912;
+import Problems.MathsDSA.PrimeAndHcfLcm;
+import helper.ArrayHelpers;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,5 +18,12 @@ public class Main {
         System.out.println((BitwiseOperations.anyBasetoAnyBase(2,"10111110100",8)));
         System.out.println(BitwiseOperations.numberOfSetBits(1524));
         System.out.println(BitwiseOperations.power(3,7));
+        ArrayHelpers.printArray(PrimeAndHcfLcm.printPrimeSieveOfErathesthenes((int)Math.sqrt(16)));
+        System.out.println(PrimeAndHcfLcm.gcd(27,9));
+        System.out.println(PrimeAndHcfLcm.lcm(27,9));
+        System.out.println(PrimeAndHcfLcm.isPrime(17));
+        PrimeAndHcfLcm.allFactors(200);
+        System.out.println(PrimeAndHcfLcm.sqtBinarySearch(225));
+
     }
 }
