@@ -1,8 +1,5 @@
 import Problems.BitwiseOperators.BitwiseOperations;
-import Problems.LeetCode1636;
-import Problems.LeetCode2191;
-import Problems.LeetCode2418;
-import Problems.LeetCode912;
+import Problems.*;
 import Problems.MathsDSA.PrimeAndHcfLcm;
 import helper.ArrayHelpers;
 
@@ -24,6 +21,10 @@ public class Main {
         System.out.println(PrimeAndHcfLcm.isPrime(17));
         PrimeAndHcfLcm.allFactors(200);
         System.out.println(PrimeAndHcfLcm.sqtBinarySearch(225));
+        System.out.println("Hello");
+        NQueen.run();
+        NKnight.run();
+        LeetCode37.run();
 
     }
 }

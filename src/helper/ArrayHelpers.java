@@ -17,4 +17,14 @@ public class ArrayHelpers{
         }
         System.out.println("]");
     }
+
+    public static void print2DArray(int[][] arr){
+        for(int[] row:arr){
+            System.out.print("[ ");
+            for(int num:row){
+                System.out.print(num+" ,");
+            }
+            System.out.print(" ],");
+        }
+    }
 }
