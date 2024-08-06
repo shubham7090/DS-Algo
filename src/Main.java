@@ -1,7 +1,4 @@
-import Problems.BitwiseOperators.BitwiseOperations;
 import Problems.*;
-import Problems.MathsDSA.PrimeAndHcfLcm;
-import helper.ArrayHelpers;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,6 +27,14 @@ public class Main {
 //        LeetCode202.run();
 //        LeetCode876.run();
 
-        LeetCode148.run();
+//        LeetCode148.run();
+
+        LeetCode206.run();
+        LeetCode237.run();
+        LeetCode203.run();
+        LeetCode1290.run();
+        LeetCode92.run();
+        LeetCode234.run();
+        LeetCode143.run();
     }
 }
