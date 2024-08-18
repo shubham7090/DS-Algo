@@ -44,6 +44,15 @@ public class Main {
         LeetCode67.run();
         LeetCode136.run();
         LeetCode191.run();
+        LeetCode461.run();
+        LeetCode1486.run();
+        LeetCode1684.run();
+        LeetCode1720.run();
+        LeetCode2220.run();
+        LeetCode35.run();
+        LeetCode34.run();
+        LeetCode33.run();
+        LeetCode81.run();
 
 
     }
