@@ -18,6 +18,17 @@ public class ArrayHelpers{
         System.out.println("]");
     }
 
+    public static void printArray(int[][] arr){
+        System.out.println("[");
+        for(int[] row:arr){
+            for(int num:row){
+                System.out.print(num+",");
+            }
+            System.out.println();
+        }
+        System.out.println("]");
+    }
+
     public static void print2DArray(int[][] arr){
         for(int[] row:arr){
             System.out.print("[ ");

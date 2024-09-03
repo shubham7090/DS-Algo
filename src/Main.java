@@ -53,6 +53,13 @@ public class Main {
         LeetCode34.run();
         LeetCode33.run();
         LeetCode81.run();
+        LeetCode263.run();
+        LeetCode260.run();
+        LeetCode137.run();
+        LeetCode540.run();
+        LeetCode1945.run();
+        LeetCode2022.run();
+        LeetCode1894.run();
 
 
     }
