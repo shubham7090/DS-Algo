@@ -67,7 +67,8 @@ public class Main {
         LeetCode725.run();
         LeetCode2326.run();
         LeetCode2807.run();
-
+        LeetCode1310.run();
+        LeetCode2419.run();
 
 
     }
